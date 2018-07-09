@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Find your favorite recipes</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header">
+        <a href="/" class="logo">
+            <img src="images/logo.png" scrset="images/logo.png 1x, images/logo@2x.png 2x" alt="logo" class="logo__img">
+        </a>
+        <nav class="menu">
+            <ul class="menu__list">
+                <li class="menu__item">
+                    <a href="#" class="menu__link">log in</a>
+                </li>
+                <li class="menu__item">
+                    <a href="#" class="menu__link">sign up</a>
+                </li>
+                <li class="menu__item">
+                    <label for="checkbox-button-menu">☰</label>
+                    <input id="checkbox-button-menu" type="checkbox" hidden />
+                    <ul class="button-menu">
+                        <li class="button-menu__item">
+                            <a href="#" class="button-menu__link">Favorite</a>
+                        </li>
+                        <li class="button-menu__item">
+                            <a href="#" class="button-menu__link">Recipes</a>
+                        </li>
+                        <li class="button-menu__item">
+                            <a href="#" class="button-menu__link">Contact</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <section class="main">
+        <h1 class="main__title">Find your favorite
+            <span class="main__title-big">Recipes</span>
+        </h1>
+        <a href="#app" class="main__button">get started</a>
+        <p class="main__description">or send us your own recipes and
+            <a href="#"> get rewarded</a>!</p>
+    </section>
+    <section class="features">
+        <ul class="features__list">
+            <li class="features__item features__item-burger">
+                <h3 class="section-title">get inspired</h3>
+                <p class="features__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur eligendi nesciunt numquam accusantium rerum
+                    culpa, vero architecto id, consectetur tempore consequatur, asperiores aspernatur cumque fugit. Illum,
+                    saepe natus. Error possimus voluptatibus dignissimos doloribus vero unde, perspiciatis aut beatae voluptate
+                    quis voluptatem ut nesciunt ipsam nobis fugit eos omnis, architecto voluptates.</p>
+            </li>
+            <li class="features__item features__item-money">
+                <h3 class="section-title">get rewarded</h3>
+                <p class="features__description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente adipisci animi veritatis molestiae iusto
+                    atque magnam quas! Sed perferendis aspernatur iure, temporibus repudiandae ad incidunt odio? Voluptatem
+                    commodi natus, ad voluptatum ullam distinctio! Perspiciatis deleniti quia, ab at ipsum cumque?Lorem ipsum
+                    dolor sit amet consectetur adipisicing elit. Consequuntur, cupiditate.</p>
+            </li>
+            <li class="features__item features__item-man">
+                <h3 class="section-title">get social</h3>
+                <p class="features__description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi, sed eos. Nesciunt repellat inventore ipsum
+                    necessitatibus, possimus distinctio impedit facere quos assumenda quam sapiente deleniti illum quas ut
+                    vero qui placeat eum repudiandae. Ratione voluptatum natus illum sed maxime aperiam?Lorem, ipsum dolor
+                    sit amet consectetur adipisicing elit. Est, modi.</p>
+            </li>
+        </ul>
+    </section>
+
+    <section class="app" id="app">
+        <div class="app__image"></div>
+        <div class="app__content">
+            <h1 class="section-title section-title--left">introducing the fudi app</h1>
+            <p class="app__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum inventore quibusdam ex voluptatibus, beatae cupiditate
+                ea dignissimos quisquam id iste.</p>
+            <p class="app__description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus eligendi mollitia nemo id excepturi laudantium
+                perferendis, architecto laboriosam dolorem ad!</p>
+            <p class="app__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo cupiditate eaque ut, modi et sequi corrupti suscipit
+                nihil ad consectetur.</p>
+            <p class="app__description">
+                <a href="#" class="app__link app__link--appstore">app store</a>
+                <a href="#" class="app__link app__link--googleplay">google play</a>
+            </p>
+        </div>
+
+    </section>
+    <section class="review">
+        <img src="images/avatar@2x.png" alt="" class="review__avatar">
+        <p class="review__text">I'm so happy because I found this recipe, and it just made my life easier.
+            <br> Thanks so much for sharing!</p>
+        <div class="review__author">Michael Dawson, San Francisco, CA</div>
+        <nav class="review-controll">
+            <span class="review-controll__item review-controll__item-active"></span>
+            <span class="review-controll__item"></span>
+            <span class="review-controll__item"></span>
+        </nav>
+        <!--/.review-controll-->
+    </section>
+    <!--/.review-->
+    <section class="meals">
+        <h1 class="section-title section-title--meals">browse by cuisines</h1>
+        <ul class="meals__list">
+            <li class="meals__item">
+                <div class="meals__content">
+                    <div class="meals__counter">327 recipes</div>
+                    <h2 class="meals__title">italian</h2>
+                </div>
+            </li>
+            <li class="meals__item">
+                <div class="meals__content">
+                    <div class="meals__counter">327 recipes</div>
+                    <h2 class="meals__title">italian</h2>
+                </div>
+            </li>
+            <li class="meals__item">
+                <div class="meals__content">
+                    <div class="meals__counter">327 recipes</div>
+                    <h2 class="meals__title">italian</h2>
+                </div>
+            </li>
+            <li class="meals__item">
+                <div class="meals__content">
+                    <div class="meals__counter">327 recipes</div>
+                    <h2 class="meals__title">italian</h2>
+                </div>
+            </li>
+            <li class="meals__item">
+                <div class="meals__content">
+                    <div class="meals__counter">327 recipes</div>
+                    <h2 class="meals__title">italian</h2>
+                </div>
+            </li>
+            <li class="meals__item">
+                <div class="meals__content">
+                    <div class="meals__counter">327 recipes</div>
+                    <h2 class="meals__title">italian</h2>
+                </div>
+            </li>
+            <li class="meals__item">
+                <div class="meals__content">
+                    <div class="meals__counter">327 recipes</div>
+                    <h2 class="meals__title">italian</h2>
+                </div>
+            </li>
+            <li class="meals__item">
+                <div class="meals__content">
+                    <div class="meals__counter">327 recipes</div>
+                    <h2 class="meals__title">italian</h2>
+                </div>
+            </li>
+            <li class="meals__item">
+                <div class="meals__content">
+                    <div class="meals__counter">327 recipes</div>
+                    <h2 class="meals__title">italian</h2>
+                </div>
+            </li>
+            <li class="meals__item">
+                <div class="meals__content">
+                    <div class="meals__counter">327 recipes</div>
+                    <h2 class="meals__title">italian</h2>
+                </div>
+            </li>
+        </ul>
+        <ul class="recipes-counter">
+        <li class="recipes-counter__item">
+            <h3 class="recipes-counter__title">23,567</h3>
+            <p class="recipes-counter__description">Recipes Available</p>
+        </li>
+        <li class="recipes-counter__item">
+            <h3 class="recipes-counter__title">23,567</h3>
+            <p class="recipes-counter__description">Recipes Available</p>
+        </li>
+        <li class="recipes-counter__item">
+            <h3 class="recipes-counter__title">23,567</h3>
+            <p class="recipes-counter__description">Recipes Available</p>
+        </li>
+        <li class="recipes-counter__item">
+            <h3 class="recipes-counter__title">23,567</h3>
+            <p class="recipes-counter__description">Recipes Available</p>
+        </li>
+        <li class="recipes-counter__item">
+            <h3 class="recipes-counter__title">23,567</h3>
+            <p class="recipes-counter__description">Recipes Available</p>
+        </li>
+        </ul>
+    </section>
+    <footer class="footer">
+    <p class="footer__copyrights">©️ 2014 Fudi. All Rights Reserved</p>
+    <p class="footer__design">Design by:
+    <a class="footer__link" href="//www.bekades.com">www.bekades.com</a></p>
+    </footer>
+
+</body>
+
+</html>
